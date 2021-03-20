@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\vishwajeet\Java-for-beginners\.metadata\.plugins\org.eclipse.jdt.core
-2807440805.index
-3883950653.index
