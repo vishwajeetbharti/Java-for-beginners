@@ -1,0 +1,15 @@
+/.metadata/
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.history/6a/302db6db3a89001b1019db9f05e9b793
+*.ini
+*.xml
+*.properties
+.metadata/.plugins/org.eclipse.core.resources/.history/6d/10bf95fd3a89001b1019db9f05e9b793
+*.resources
+*.snap
+*.prefs
+*.index
+*.dat
+*.log
+*.properties
+*.properties
