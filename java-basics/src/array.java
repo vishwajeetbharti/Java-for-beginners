@@ -2,8 +2,10 @@
 public class array {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("hello");
+		int marks[]  = {32,23,34,34,43};
+		for(int i=0;i<marks.length;i++)
+		System.out.println(marks[i]);
+		
 	}
 
 }
