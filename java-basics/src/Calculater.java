@@ -18,7 +18,7 @@ public class Calculater {
 		case '-':
 			System.out.println(num-num1);
 		break;
-		case '*':
+		case '*':	
 			System.out.println(num*num1);
 		break;
 		case '/':
