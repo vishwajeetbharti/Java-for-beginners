@@ -21,6 +21,14 @@ public class Marks {
 		percentage=100*total/500;
 		System.out.println("Total marks you got "+total);
 		System.out.println("Total marks percentage is:"+ percentage);
+		if(science<33||math<33||english<33||sscience<33||hindi<33)
+		{
+			System.out.println("Compt:");
+		}
+		else
+		{
+			System.out.println("Pass:");
+		}
 	}
 
 }
