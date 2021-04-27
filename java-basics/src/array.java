@@ -13,7 +13,8 @@ public class array {
 		for(int i=0;i<score.length;i++)
 			score[i]=sc.nextInt();
 		for(int i=0;i<marks.length;i++)
-			System.out.println(score[i]);		
+			System.out.println(score[i]);
+		sc.close();
 	}
 	
 

@@ -26,6 +26,7 @@ public class Calculater {
 		break;
 		default:
 		    System.out.println("Error operator.");
+		    sc.close();
 
 
 

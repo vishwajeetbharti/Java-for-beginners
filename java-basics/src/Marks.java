@@ -17,6 +17,7 @@ public class Marks {
 		sscience = sc.nextDouble();		
 		System.out.println("Enter the marks of hindi:-");
 		hindi = sc.nextDouble();
+		sc.close();
 		total=science+math+english+sscience+hindi;
 		percentage=100*total/500;
 		System.out.println("Total marks you got "+total);
