@@ -8,7 +8,7 @@ public class Random_number {
 		int integer = rand.nextInt(random);
 		System.out.println("Random integer value between 0 to 10:-\n"+ integer);
 		float float_random =minimum + rand.nextFloat() * (maximum - minimum);
-		System.out.println("Random integer value between 0 to 10:-\n"+ float_random);
+		System.out.println("Random float value between 10 to 12:-\n"+ float_random);
         
 	}
 
