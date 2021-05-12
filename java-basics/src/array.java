@@ -7,6 +7,8 @@ public class array {
 		int marks[]  = {32,23,34,34,43};//Declare + Initialize
 		for(int i=0;i<marks.length;i++)
 		System.out.println(marks[i]);
+		System.out.println(marks.length);
+
 		int[] score;// Declaration.
 		score = new int[5];// Allocation.
 		System.out.println("Enter the score");
