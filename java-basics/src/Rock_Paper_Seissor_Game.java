@@ -12,7 +12,7 @@ public class Rock_Paper_Seissor_Game {
 		{
 			a=character.charAt(rand.nextInt(character.length()));
 			//System.out.println(a);
-			System.out.println("Start Game.\nEnter first letter ccapital from any of them:-\n1:-Scissors.\n2:-Paper.\n3:-Rock.");
+			System.out.println("Start Game.\nEnter first capital letter from any of them:-\n1:-Scissors.\n2:-Paper.\n3:-Rock.");
 			input= sc.next().charAt(0);
 			if(input==a)
 			{
