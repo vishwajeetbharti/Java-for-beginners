@@ -1,8 +1,17 @@
+import java.util.Random;
 import java.util.Scanner;
 class private_modifier{
 	private int Roll;
 	private String Name;
 	
+	public int getsalary() {
+		Random salary = new Random();
+		int sal;
+		int maximum=120000;
+		//int minimum=10000;
+		sal=salary.nextInt(maximum);
+		return sal;
+	}
 	public void setid(int a) {
 		Roll=a;
 	}
@@ -33,6 +42,7 @@ public class Modifiers {
 		Vishwajeet.setname(na);
 		Vishwajeet.getid();
 		Vishwajeet.getname();
+		System.out.println(Vishwajeet.getsalary()+" salary will be give to you.");
 		sc.close();
 	}
 
