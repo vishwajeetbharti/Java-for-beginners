@@ -58,7 +58,7 @@ public class Employee {
 	System.out.println("\n"+"Enter the length of Square.");
 	side_leangth= sc.nextInt();
 	System.out.println("area of square is:-"+a1.area(side_leangth)+"\n"+"Perimeter of square is:-"+a1.perimeter(side_leangth));
-	
+	sc.close();
 	
 	}
 

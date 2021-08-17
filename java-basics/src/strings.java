@@ -14,7 +14,7 @@ public class strings {
        // String st = sc.next();
        String st = sc.nextLine();
          System.out.println(st);
-//		  sc.close();
+		  sc.close();
 
 	}
 

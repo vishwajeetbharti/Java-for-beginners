@@ -24,7 +24,7 @@ public class string_method {
 		System.out.println("10:-"+name.endsWith("ar"));
 		System.out.println("11:-"+name.charAt(2));
 		System.out.println("13:-"+name.indexOf(0,'s'));
-		
+		sc.close();
 		
 	}
 
