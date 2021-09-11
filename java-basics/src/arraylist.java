@@ -3,7 +3,7 @@ import java.util.List;
 
 public class arraylist {
 	public static void main(String[] args) {
-		 String string = "yukati weds vishwajeet bharti";
+		 String string = "yukhti weds vishwajeet bharti";
 		  
 	        List<Character> chars = new ArrayList<>();
 	  
