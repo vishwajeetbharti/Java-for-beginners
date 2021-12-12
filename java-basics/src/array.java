@@ -16,6 +16,7 @@ public class array {
 			score[i]=sc.nextInt();
 		for(int i=0;i<marks.length;i++)
 			System.out.println(score[i]);
+		System.out.println(score.length);
 		sc.close();
 	}
 	
