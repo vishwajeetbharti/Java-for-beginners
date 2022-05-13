@@ -1,4 +1,4 @@
-class student {
+class tudent {
 	String name;
 	int roll;
 	public void printinfo() {
@@ -10,7 +10,7 @@ public class java_class {
 
 	public static void main(String[] args) {
 		System.out.println("This is a coustom class.");
-		student vishwajeet = new student();//Instantiating a new Employee Object.
+		tudent vishwajeet = new tudent();//Instantiating a new Employee Object.
 		// Setting Attributes
 		vishwajeet.roll=111;
 		vishwajeet.name="Vishwajeet Bharti";
