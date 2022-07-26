@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class program5 {
-    public static void divide(int a[],int low,int high){
+    public static void divide(int[] a, int low, int high){
         if(low<high){
             int mid=(low+high)/2;
             divide(a,low,mid);
@@ -12,7 +12,7 @@ public class program5 {
             merge(a,low,mid,high);
         }
     }
-    public static void merge(int a[],int low,int mid,int high){
+    public static void merge(int[] a, int low, int mid, int high){
         int i=low,j=mid+1,k=low;
         int[] b=new int[5000];
         while(i<=mid&&j<=high){
