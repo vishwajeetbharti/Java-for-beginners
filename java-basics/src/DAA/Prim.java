@@ -39,7 +39,7 @@ public class Prim {
                     }
                 }
             }
-            System.out.println(u+"---"+v+"="+d[u][v]);
+            System.out.println(u+"--->"+v+"="+d[u][v]);
             ne++;
             sum+=d[u][v];
             visited[v]=1;
