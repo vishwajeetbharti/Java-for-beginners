@@ -11,11 +11,11 @@ public class Knapsack {
         System.out.println("Enter the number of item: ");
         n = take.nextInt();
         System.out.println("Enter the weight of the item: ");
-        for(int i=0; i<n;i++){
+        for(int i=1; i<=n;i++){
             w[i]= take.nextInt();
         }
         System.out.println("Enter the profit of each item: ");
-        for(int i=0;i<n;i++){
+        for(int i=1;i<=n;i++){
             p[i]= take.nextInt();
         }
         System.out.println("Enter the Maximum capacity: ");
@@ -28,8 +28,8 @@ public class Knapsack {
             return y;
     }
     void optimal(){
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
+        for(int i=0;i<=n;i++){
+            for(int j=0;j<=m;j++){
                 if(i==0||j==0)
                     v[i][j]=0;
                 else if (w[i]>j) {
@@ -42,9 +42,9 @@ public class Knapsack {
     }
     void display(){
         System.out.println("***********************");
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                System.out.println("  "+v[i][j]);
+        for(int i=0;i<=n;i++){
+            for(int j=0;j<=m;j++){
+                System.out.print("  "+v[i][j]);
             }
             System.out.println();
         }

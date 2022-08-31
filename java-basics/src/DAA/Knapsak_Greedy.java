@@ -47,7 +47,7 @@ public class Knapsak_Greedy {
         System.out.println("Optimal solution = "+sum);
         System.out.println("Item selected weight and profit: ");
         for(i=0;i<n;i++){
-            System.out.println(x[i]*w[i]+x[i]*p[i]);
+            System.out.println(x[i]*w[i]+"-->"+x[i]*p[i]);
         }
     }
 
