@@ -8,7 +8,7 @@ public class Knapsack {
     int[][] v = new int[10][10];
     void getData(){
         Scanner take =new Scanner(System.in);
-        System.out.println("Enter hte number of item: ");
+        System.out.println("Enter the number of item: ");
         n = take.nextInt();
         System.out.println("Enter the weight of the item: ");
         for(int i=0; i<n;i++){

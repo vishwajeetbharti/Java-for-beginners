@@ -35,6 +35,7 @@ public class Kruskal {
                     }
                 }
             }
+
             if(find(u)!=find(v)){
                 System.out.println("Connect "+u+"--->"+v);
                 ne++;
