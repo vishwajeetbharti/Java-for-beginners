@@ -27,16 +27,16 @@ class Myipod implements ipod{
 	}
 class MysmartIopd extends Myipod implements Smartipod,camara{
 	public void MP4vedioOn() {
-		System.out.println("MP4 vedio music On...");	
+		System.out.println("MP4 video music On...");
 	}
 	public void MP4vedioOff() {
-		System.out.println("MP4 vedio music Off...");	
+		System.out.println("MP4 video music Off...");
 	}
 	public void camaraOn() {
 		System.out.println("Camara On for taking Snaps...");	
 	}
 	public void takingShots() {
-		System.out.println("ttaking Shots...");	
+		System.out.println("taking Shots...");
 	}
 }
 public class Interfaces_1 {
