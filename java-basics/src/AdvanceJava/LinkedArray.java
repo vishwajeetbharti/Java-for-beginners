@@ -10,7 +10,7 @@ public class LinkedArray {
     public static void main(String[] args) {
         int num;
         Scanner sc =new Scanner(System.in);
-        LinkedList<Integer> l2=new LinkedList();
+        LinkedList<Integer> l2=new LinkedList<>();
         for(;;){
             int choice;
             System.out.println("""
