@@ -87,22 +87,21 @@ public class Library {
 		while(flag) {
 			System.out.println("1. Add book.\n2. Show Book\n3. Issue Book.\n4. Return Book.\n5. Exit.");
 			choice =sc.nextInt();
-			switch(choice) {
-			case 1:  System.out.println("Enter the book name.\n"); 
-	        String Bookname;
-	        Bookname=sc.next();
-		    lab.Addbook(Bookname);
-			break;
-			case 2: lab.Showbook();
-			break;
-			case 3: lab.Takebook();
-			break;
-			case 4: lab.Retrunbook();
-			break;
-			case 5: flag=false;
-				    System.exit(0);
-			break;
-			default : System.out.println("\nInvalid Input.");
+			switch (choice) {
+				case 1 -> {
+					System.out.println("Enter the book name.\n");
+					String Bookname;
+					Bookname = sc.next();
+					lab.Addbook(Bookname);
+				}
+				case 2 -> lab.Showbook();
+				case 3 -> lab.Takebook();
+				case 4 -> lab.Retrunbook();
+				case 5 -> {
+					flag = false;
+					System.exit(0);
+				}
+				default -> System.out.println("\nInvalid Input.");
 			}
 		}
 		sc.close();

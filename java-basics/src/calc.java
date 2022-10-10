@@ -16,31 +16,31 @@ class  opreater{
 	}
 	
 	public void output(char operator) {
-		switch(operator){
-		case '+':
-		    output= value1 +value2;
-		    value1 =0;
-		    value1 =output;
-		break;
-		case '-':
-			output = value1 -value2;
-			value1 =0;
-		    value1 =output;
-		break;
-		case '*':	
-		    output= value1 *value2;
-		    value1 =0;
-		    value1 =output;
-		break;
-		case '/':
-			output= value1 /value2;
-			value1 =0;
-		    value1 =output;
-		break;
-	    }
+		switch (operator) {
+			case '+' -> {
+				output = value1 + value2;
+				value1 = 0;
+				value1 = output;
+			}
+			case '-' -> {
+				output = value1 - value2;
+				value1 = 0;
+				value1 = output;
+			}
+			case '*' -> {
+				output = value1 * value2;
+				value1 = 0;
+				value1 = output;
+			}
+			case '/' -> {
+				output = value1 / value2;
+				value1 = 0;
+				value1 = output;
+			}
+		}
 	}
 }
-public class calcy {
+public class calc {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
@@ -48,7 +48,7 @@ public class calcy {
 		float userInput;
 		char operat;
 		boolean A = true,k=true;
-		System.out.println("Calculater Started:-");
+		System.out.println("Calculator Started:-");
 		userInput = sc.nextFloat();
 		
 		do {
