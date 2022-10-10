@@ -6,6 +6,7 @@ import java.util.Date;
 public class Print_date {
     public static void main(String[] args) {
         Date d= new Date();
+        Calendar c= Calendar.getInstance();
         Date d1 = new Date(122, Calendar.OCTOBER,9);
         System.out.println(d);
         System.out.println(d1);
@@ -15,5 +16,6 @@ public class Print_date {
         System.out.println("The current date is : "+ d.getDate());
         System.out.println("The current date is : "+ d.getMonth());
         System.out.println("The current year is : "+ (1900+d.getYear()));//need to  1900 to show current year
+        System.out.println(c.getCalendarType()+" RailWay time "+c.get(Calendar.HOUR)+":"+c.get(Calendar.MINUTE)+":"+c.get(Calendar.SECOND)+" "+ c.getTime());
     }
 }
